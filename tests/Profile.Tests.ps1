@@ -2,10 +2,10 @@ $ErrorActionPreference = 'Stop'
 $profileRoot = Split-Path -Parent $PSScriptRoot
 $readme = Get-Content -LiteralPath (Join-Path $profileRoot 'README.md') -Raw -Encoding utf8
 
-foreach ($required in @('# Hi, I''m DGOR1337', 'Unreal Engine 逆向工程', 'LangChain 1.2', '后量子密码', '格密码', 'Post-Quantum Cryptography')) {
+foreach ($required in @('# Hi, I''m DGOR1337', 'Unreal Engine 逆向工程', '、**Harness 工程**与', '| 🤖 **Harness 工程** | 学习如何为 AI Agent 设计工具接口、管理上下文，并通过评估验证其行为。 |', '后量子密码', '格密码', 'Post-Quantum Cryptography')) {
     if (-not $readme.Contains($required)) { throw "Missing learning profile content: $required" }
 }
-if ($readme -match '(?i)(?<![\w-])Quantum Cryptography\b|(?<!后)量子密码|已掌握|精通|专家|TODO|你的用户名|项目链接') {
+if ($readme -match '(?i)(?<![\w-])Quantum Cryptography\b|(?<!后)量子密码|LangChain|已掌握|精通|专家|TODO|你的用户名|项目链接') {
     throw 'Profile contains an incorrect study direction, unsupported proficiency claim, or placeholder.'
 }
 foreach ($privateContent in @('Learning/blob', 'Learning/tree', 'The Game Hacking', 'E:\')) {

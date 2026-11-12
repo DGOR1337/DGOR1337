@@ -4,7 +4,7 @@
 
 # Hi, I'm DGOR1337 👋
 
-正在学习 **Unreal Engine 逆向工程**、**LangChain Agent 开发**与 **后量子密码（重点为格密码）**。
+正在学习 **Unreal Engine 逆向工程**、**Harness 工程**与 **后量子密码（重点为格密码）**。
 
 这里记录我的学习方向、实践探索，以及持续整理的工具与代码。
 
@@ -13,7 +13,7 @@
 | 方向 | 正在学习 |
 | :--- | :--- |
 | 🎮 **Unreal Engine 逆向工程** | Reverse Unreal Engine，理解引擎机制与程序行为。 |
-| 🤖 **AI Agent 开发** | 基于 LangChain 1.2 学习 Agent 开发，通过代码实践理解智能体的构建方式。 |
+| 🤖 **Harness 工程** | 学习如何为 AI Agent 设计工具接口、管理上下文，并通过评估验证其行为。 |
 | 🔐 **后量子密码与格密码** | Post-Quantum Cryptography，以格密码为重点，逐步学习概念、算法与证明。 |
 
 ### 🧭 我的学习方式
